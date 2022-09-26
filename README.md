@@ -5,6 +5,8 @@ Author: Kuan-Tsa Chen (Jason)
 
 Video link: https://youtu.be/-LX6-CDITT8
 
+Slides: https://docs.google.com/presentation/d/18PXtLPmuRWkNlW7JzSnGycIdLjTq2kxmvszckol7v3k/edit?usp=sharing
+
 ### Background
 
 This is my personal website showing my background, experience and interests. 
