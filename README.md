@@ -5,6 +5,8 @@ Author: Kuan-Tsa Chen (Jason)
 
 Video link: https://youtu.be/-LX6-CDITT8
 
+Thumbnail: https://www.canva.com/design/DAFNWyyAaHA/Xz9z9DVelmpmYN-1pmTIaw/edit?utm_content=DAFNWyyAaHA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 Slides: https://docs.google.com/presentation/d/18PXtLPmuRWkNlW7JzSnGycIdLjTq2kxmvszckol7v3k/edit?usp=sharing
 
 ### Background
