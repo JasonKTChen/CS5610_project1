@@ -1,0 +1,211 @@
+body {
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.header {
+    background-color: #FEFBF3;
+    border-bottom: 0.5px groove;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.section {
+    padding: 120px 10%;
+    background-color: #FEFBF3;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.intro-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.intro {
+    height: 350px;
+    width: 450px;
+    margin-left: 150px;
+    padding: 20px 50px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+.my-photo {
+    height: auto;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.intro h1,
+h2 {
+    text-align: right;
+}
+
+.content-border {
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    padding: 5%;
+}
+
+.learn-more {
+    margin-left: 70%;
+}
+
+.content1 {
+    background-color: #79B4B7;
+    color: #4a4a4a;
+    /* font-size: 20px; */
+}
+
+.content2 {
+    background-color: #F8F0DF;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px 0 0 50px;
+
+}
+
+.grid-item {
+    /* width: ; */
+    height: auto;
+    align-items: center;
+}
+
+.grid-item p {
+    align-items: center;
+}
+
+.circle-icon {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(242, 221, 38);
+    padding: 25px;
+}
+
+.circle-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.content3 {
+    background-color: #a3a3a3;
+    color: aliceblue;
+}
+
+.content-border:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.airplane {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.content-border:hover .airplane-move {
+    position: relative;
+    animation-name: airplane;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+.trip-content {
+    display: flex;
+}
+
+.trip-photo {
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+
+@keyframes airplane {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 150px;
+        top: 20px;
+    }
+
+    50% {
+        left: 300px;
+        top: -20px;
+    }
+
+    75% {
+        left: 450px;
+        top: 20px;
+    }
+
+    100% {
+        left: 600px;
+        top: -20px;
+    }
+}
+
+.footer {
+    background-color: #9e998b;
+    color: #f8f8f8;
+    padding: 24px 10% 16px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    margin-top: auto;
+    height: auto;
+}
+
+.left-container {
+    grid-area: left;
+}
+
+.left-container span {
+    color: #ffffff;
+}
+
+.left-container h6 {
+    color: #ffffff;
+}
+
+.right-container {
+    grid-area: right;
+}
+
+svg {
+    margin: 0 8px;
+}
+
+.right-container ul,
+li {
+    list-style-type: none;
+    text-align: right;
+}
+
+.right-container li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.right-container li a:hover {
+    color: #e7e7e7;
+}
+
+.right-container ul,
+li {
+    text-align: right;
+}

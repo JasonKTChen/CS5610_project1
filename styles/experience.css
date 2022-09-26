@@ -1,0 +1,21 @@
+.expe-content{
+    padding: 80px;
+}
+.expe-content-title{
+    padding: 20px 100px;
+}
+.content-box{
+    display: flexbox;
+    flex-direction: row;
+    padding: 50px 200px;
+    margin: auto;
+}
+.content-box img{
+    display: flexbox;
+    width: 200px;
+    height: autos;
+}
+.content-box span{
+    justify-content: center;
+    margin-left: 50px;
+}
