@@ -1,7 +1,9 @@
 # CS5610_project1
 # Personal website
+
 Author: Kuan-Tsa Chen (Jason)
-Video link: 
+
+Video link: https://youtu.be/-LX6-CDITT8
 
 ### Background
 
