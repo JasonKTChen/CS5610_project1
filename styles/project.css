@@ -1,0 +1,21 @@
+.project-title{
+    margin: 100px 0 0 150px;
+}
+.project-content{
+    padding: 50px;
+}
+.project1{
+    background-color: #7895B2;
+    color: aliceblue;
+}
+.project2{
+    background-color: #AEBDCA;
+    color: aliceblue;
+}
+.project3{
+    background-color: #E8DFCA;
+    color: rgb(2, 42, 74);
+}
+.project-list li{
+    text-align: left;
+}
